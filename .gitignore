@@ -1,0 +1,54 @@
+# Next.js
+.next/
+out/
+dist/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.production
+.env*.local
+
+# Build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Storage (generated PDFs)
+storage/
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+*.log
